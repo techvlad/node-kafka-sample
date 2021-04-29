@@ -1,0 +1,21 @@
+{
+  "name": "kafka-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "ts-node producer.ts",
+    "start:consumer": "ts-node consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  }
+}
